@@ -6,9 +6,15 @@ Tell git who you are
 initilize a new local repositiory
 	git init
 
-Check out a repository
-	git clone <from_path> <to_filename>
-	(Create a working copy of a local repository:)
+Status
+	git status
+	(show the status of files and changes)
+	
+	git log
+	(show all the commits and previous changes)
+	
+	git show HEAD
+	(show current position of head)
 
 Add files
 	git add <files_name seperated by commas>
@@ -24,22 +30,9 @@ Commit
 Push
 	git push origin master
 
-Status
-	git status
-	(show the status of files and changes)
-	
-	git log
-	(show all the commits and previous changes)
-	
-	git show HEAD
-	(show current position of head)
-
 Connect to a remote repository
 	git remote add origin <server>
 	git remote -v  (list all currently configured remote repository)
-
-Tags
-	git push --tags origin
 
 Undo local changes
 	git checkout -- <gitcommands>
@@ -94,7 +87,5 @@ rollback
 	
 	git reset SHA_number
 	(reset to a particular commit)
-	
-search
-	git grep " £oo()"
+
 	
