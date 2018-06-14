@@ -1,0 +1,20 @@
+#create a set
+a=[]
+b=[]
+a.append(int(input("enter value 1 for set s1 : ")))
+a.append(int(input("enter value 2 for set s1 : ")))
+a.append(int(input("enter value 3 for set s1 : ")))
+a.append(int(input("enter value 4 for set s1 : ")))
+a.append(int(input("enter value 5 for set s1 : ")))
+s1=set(a)
+b.append(int(input("\n enter value 1 for set s2 : ")))
+b.append(int(input("enter value 2 for set s2 : ")))
+b.append(int(input("enter value 3 for set s2 : ")))
+b.append(int(input("enter value 4 for set s2 : ")))
+b.append(int(input("enter value 5 for set s2 : ")))
+s2=set(b)
+print("sets are :")
+print(s1)
+print(s2)
+print("inetrsection of the set is :")
+print(s1&s2)
