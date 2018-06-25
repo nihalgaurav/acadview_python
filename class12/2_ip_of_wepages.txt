@@ -1,0 +1,28 @@
+nslookup google.com
+Server:  google-public-dns-a.google.com
+Address:  8.8.8.8
+
+Non-authoritative answer:
+DNS request timed out.
+    timeout was 2 seconds.
+Name:    google.com
+Address:  172.217.24.238
+
+nslookup facebook.com
+Server:  UnKnown
+Address:  2405:200:800::1
+
+Non-authoritative answer:
+Name:    facebook.com
+Addresses:  2a03:2880:f12f:83:face:b00c:0:25de
+          157.240.16.35
+
+
+>nslookup twitter.com
+Server:  UnKnown
+Address:  2405:200:800::1
+
+Non-authoritative answer:
+Name:    twitter.com
+Addresses:  104.244.42.193
+          104.244.42.65
