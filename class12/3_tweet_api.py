@@ -1,10 +1,10 @@
 import tweepy
 
-consumer_key='wF1H7VZkQgydYdhZwbaiXv2Bh'
-consumer_secrate='8rL4K3kKMFQ8RUd3RBiH9LHDKzO1xf6dOfYnYzF6qqugbS7Yot'
+consumer_key=''
+consumer_secrate=''
 
-access_token='714260025384960000-YXkzwcfmIdL59N0Rrr3n36xkTpNqPHK'
-access_token_secrate='JjVBq4pPbs3Q8vlVMLWA3TmBDzZI7NWps3xSlD5PL5CFR'
+access_token=''
+access_token_secrate=''
 auth=tweepy.OAuthHandler(consumer_key,consumer_secrate)
 auth.set_access_token(access_token,access_token_secrate)
 api=tweepy.API(auth)
