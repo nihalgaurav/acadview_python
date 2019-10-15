@@ -86,6 +86,6 @@ rollback
 	(clear staging area)
 	
 	git reset SHA_number
-	(reset to a particular commit)
+	(reset to a particular commit) #Good job
 
 	
