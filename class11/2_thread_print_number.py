@@ -1,4 +1,4 @@
-#Make a thread that prints numbers from 1-10, waits for 1 sec between
+#Make a thread that prints numbers from 1-10, waits for 1 sec between.......
 
 import threading
 from threading import Thread
